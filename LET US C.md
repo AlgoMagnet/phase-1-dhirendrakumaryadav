@@ -49,6 +49,148 @@ DATA TYPES
 DataTypes are used for declaring variables And functions of different types.
 When Program store data in variables, It is necessary that each variable must be assigned a specific data type.
 
+# CHAPTER 2
+It is used to execute an instruction or sequence / block of instruction only if condition is fulfilled. if statement, expression is evaluated first and then, depending on whether the value of the expression (relation or condition) is true or false, transfers the control to the particular statement or group of statements.
+
+Different forms of implementation of if-statement are :
+
+Simple if statement
+if-else statement
+Nested if-else statement
+Else if statement
+
+(a)[Simple if statement]
+
+This is used to executed the statements only if the condition is true.
+
+Syntax :
+
+    if(condition)
+    {
+        block of statement;
+    }
+(b) [If..else statement] is used when different block of statement is to be executed on condition true and false.
+
+Syntax :
+
+
+    if(condition)
+    {
+        block 1 of statement;
+    }
+    else
+    {
+        block 2 of statement;
+    }
+if condition is true then block 1 statement will be executed and if condition is false block 2 statement will execute.
+(c) to show a multi-way decision based on several conditions, we use the [else if statement.]
+
+Syntax :
+
+ if(condition_2)
+ {
+    block 1 statement;
+ }
+ else if (condition_2)
+ {
+    block 2 statement;
+ }
+ else if(condition_n)
+ {
+    block n statement;
+ }
+ else
+ {
+    block x statement;
+ }
+
+here, the conditions are evaluated in order from top to bottom. As soon as any condition evaluates to true, then statement associated with the given condition is executed and if all condition are false, then control is transferred to statement_x skipping the rest of the condition.
+(d) [nested if else]
+ You can combine multiple if / if-else / if-else-if ladders when a series of decisions are involved. So you can make sure that your program executes certain instructions when a series of conditions are met.
+
+Some use case :
+
+1.
+    
+
+    if(condition)
+    {
+        //block of statement
+
+        if(condition)
+        {
+            //block of statement
+        }
+    }
+    
+
+
+2.
+    
+
+    if(condition)
+    {
+        //black of statement
+    }
+    else
+    {
+
+        if(condition)
+        {
+            //block of statement
+        }
+        else
+        {
+            //block of statement
+        }
+
+    }
+    
+
+
+3.
+    
+
+    if(condition)
+    {
+        //black of statement
+    }
+    else if(condition)
+    {
+
+        if(condition)
+        {
+            //block of s…
+switch statements are also used when we need our program to make a certain decision based on a condition and then execute accordingly.
+
+Syntax :
+
+
+switch (<variable>)
+{
+    case a-constant-expression :
+        //Code to execute if <variable> == a-constant-expression
+        break;
+
+    case b-constant-expression  :
+        //Code to execute if <variable> == b-constant-expression
+        break;
+    .
+    .
+    .
+    case n-constant-expression :
+        //Code to execute if <variable> == n-constant-expression
+        break;
+
+    default:
+        //Code to execute if <variable> does not equal the value following any of the cases
+}
+  
+# CHAPTER 3
+  LOOP 
+  (a)[for loop]
+  
+
 
 
 
