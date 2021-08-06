@@ -189,7 +189,58 @@ switch (<variable>)
 # CHAPTER 3
   LOOP 
   (a)[for loop]
-  
+  oops are used to repeat a block of code.
+
+Syntax of for Loop :
+
+ for (init; condition; increment)
+ {
+    // block of statement.
+ }
+   (c) [while loop]
+ while loop statement in C programming language repeatedly executes a target statement as long as a given condition is true.
+
+Syntax :
+
+
+while( condition )
+{
+    statement(s);
+}
+    (c)[do-while loop]
+ A do-while loop is similar to a while loop, except that a do-while loop is guaranteed to execute at least one time. The conditional expression appears at the end of the loop, so the statement(s) in the loop execute once before the condition is tested.
+
+Syntax :
+
+
+do
+{
+    statement(s);
+} while( condition );
+[break keyword
+
+break statement neglect the statement after it and exit compound statement. in the loop and transfer the control outside the loop
+
+Break it's sole purpose to passes control out of the compound statement i.e. Loop, Condition, Method or Procedures.
+
+Example :
+
+
+while(a)
+{
+    while(b)
+    {
+        if(b == 10)
+        {
+            break;
+        }
+    }
+    // break will bring us here.
+}
+
+continue keyword
+
+Similar,To break statement continue statement also neglect the statement after it in the loop and send control back to starting point of loop for next iteration instead of outside the loop
 
 
 
