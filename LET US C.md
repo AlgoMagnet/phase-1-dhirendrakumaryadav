@@ -161,30 +161,7 @@ Some use case :
         if(condition)
         {
             //block of s…
-switch statements are also used when we need our program to make a certain decision based on a condition and then execute accordingly.
 
-Syntax :
-
-
-switch (<variable>)
-{
-    case a-constant-expression :
-        //Code to execute if <variable> == a-constant-expression
-        break;
-
-    case b-constant-expression  :
-        //Code to execute if <variable> == b-constant-expression
-        break;
-    .
-    .
-    .
-    case n-constant-expression :
-        //Code to execute if <variable> == n-constant-expression
-        break;
-
-    default:
-        //Code to execute if <variable> does not equal the value following any of the cases
-}
   
 # CHAPTER 3
   LOOP 
@@ -217,7 +194,34 @@ do
 {
     statement(s);
 } while( condition );
-[break keyword
+
+
+# CHAPTER 4
+switch statements are also used when we need our program to make a certain decision based on a condition and then execute accordingly.
+
+Syntax :
+
+
+switch (<variable>)
+{
+    case a-constant-expression :
+        //Code to execute if <variable> == a-constant-expression
+        break;
+
+    case b-constant-expression  :
+        //Code to execute if <variable> == b-constant-expression
+        break;
+    .
+    .
+    .
+    case n-constant-expression :
+        //Code to execute if <variable> == n-constant-expression
+        break;
+
+    default:
+        //Code to execute if <variable> does not equal the value following any of the cases
+}
+    [break keyword]
 
 break statement neglect the statement after it and exit compound statement. in the loop and transfer the control outside the loop
 
