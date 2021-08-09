@@ -245,7 +245,55 @@ while(a)
 continue keyword
 
 Similar,To break statement continue statement also neglect the statement after it in the loop and send control back to starting point of loop for next iteration instead of outside the loop
+    
+# CHAPTER 5
+ FUNCTIONS
+    A function is a block of statements, which is used to perform a specific task.
+A C program has at least one function named main().
 
+Types of functions :
+
+There are two types of function in C
+
+Library function
+User defined function
+
+Library Function :
+
+Library functions are the built-in function in C such as puts(), gets(), printf(), scanf() etc. These are the functions which already have a definition in header files.
+
+
+User defined function :
+
+C allows programmer to define their own function according to their requirement.
+
+
+Syntax of function :
+
+return_type function_name (argument list)
+{
+    Block of code
+}
+return_type : return types are the type of data that is returned by the function. If nothing is returned then the return type is void.
+
+argument list : argument list contains variables names along with their data types. These arguments are inputs for the function.
+
+
+Syntax :
+
+
+#include <stdio.h>
+
+void function_name()
+{
+    //code
+}
+
+int main()
+{
+    //Calling function
+    function_name();
+}
 
 
 
