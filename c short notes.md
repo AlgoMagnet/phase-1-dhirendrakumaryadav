@@ -294,6 +294,41 @@ int main()
     //Calling function
     function_name();
 }
+    
+    
+    # POINTER
+    Pointer is a variable that points to an address of a value.
+     Pointer => address that contains the value
+
+
+Symbols used in pointer :
+
+& (ampersand sign) : ‘Address of operator’. It determines the address of a variable.
+
+* (asterisk sign) : indirection operator / value at address. Accesses the value at the address.
+
+Example :
+
+
+int i = 3 ;
+
+This declaration tells the C compiler to :-
+
+Reserve space in memory to hold the integer value.
+Associate the name i with this memory location.
+Store the value 3 at this location.
+
+We may represent the location of i in the memory by :-
+ Syntax :
+
+
+datatype *variable_name
+    WAYS TO DECLARE POINTER:-
+ Here, i, ch and f are declared as pointer variables, i.e.variables capable of holding addresses.
+Remember that, addresses are always going to be whole numbers, therefore pointers always contain whole numbers.
+Now we can put these two facts together and say that the pointers are variables that contain addresses, and since addresses are always whole numbers, pointers would always contain whole numbers.
+The declaration float *f does not mean that f is going to contain a floating-point value. What it means is, f is going to contain the address of a floating-point value.
+Similarly, char *ch means that ch is going to contain the address of a char value.
 
 
 
